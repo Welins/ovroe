@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Каталог товаров</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220221105753">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="free-shiping">
+			<div class="free-shiping__container">
+				<div class="free-shiping__text">
+					Free Shipping over $75!
+				</div>
+			</div>
+		</div>
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<nav class="header__navigation navigation-header">
+						<ul class="navigation-header__list">
+							<li class="navigation-header__item">
+								<a href="#">New in</a>
+							</li>
+							<li class="navigation-header__item">
+								<a href="#">Apparel</a>
+							</li>
+							<li class="navigation-header__item">
+								<a href="#">Plus size</a>
+							</li>
+							<li class="navigation-header__item">
+								<a href="#">Accessories</a>
+							</li>
+							<li class="navigation-header__item">
+								<a href="#">Restocked</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__logo">
+						<a href="">
+							<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Логотип"></picture>
+						</a>
+					</div>
+					<div class="header__actions">
+						<div class="header__search search">
+							<div class="search__body">
+								<div class="search__text">
+									Search
+								</div>
+								<svg>
+									<use href="img/icons/icons.svg#svg-search"></use>
+								</svg>
+							</div>
+							<div class="search__ready">
+								<input autocomplete="off" type="search" name="search" id="site-search" placeholder="Search">
+								<svg class="search-find">
+									<use href="img/icons/icons.svg#svg-search"></use>
+								</svg>
+							</div>
+						</div>
+						<div class="header__sign sign">
+							Sign in
+						</div>
+						<a class="header__cart cart-header" href="#">
+							<div class="cart-header__text">
+								Cart
+							</div>
+							<span class="cart-header__value">0</span>
+						</a>
+					</div>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">New In</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Apparel</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Plus size</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Accessories</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Restocked</a></li>
+								<li class="menu__item menu__sign sign"><a href="#" class="menu__link">Sign in</a></li>
+								<li class="menu__item menu__search search">
+									<div class="search__body">
+										<div class="search__text">
+											Search
+										</div>
+										<svg>
+											<use href="img/icons/icons.svg#svg-search"></use>
+										</svg>
+									</div>
+									<div class="search__ready">
+										<input autocomplete="off" type="search" name="search" id="site-search" placeholder="Search">
+										<svg class="search-find">
+											<use href="img/icons/icons.svg#svg-search"></use>
+										</svg>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<nav class="page__catalog-nav catalog-nav">
+				<div class="catalog-nav__container">
+					<ul class="catalog-nav__list">
+						<li class="catalog-nav__item">
+							<a href="#">Coats & Jackets</a>
+						</li>
+						<li class="catalog-nav__item">
+							<a href="#">Sweatshirts & T-shirts</a>
+						</li>
+						<li class="catalog-nav__item">
+							<a href="#">Shirts & Tops</a>
+						</li>
+						<li class="catalog-nav__item catalog-nav__item_active">
+							<a href="#">Dresses</a>
+						</li>
+						<li class="catalog-nav__item">
+							<a href="#">Bottoms</a>
+						</li>
+						<li class="catalog-nav__item">
+							<a href="#">Outerwear</a>
+						</li>
+						<li class="catalog-nav__item">
+							<a href="#">Jumpsuits & Rompers</a>
+						</li>
+						<li class="catalog-nav__item">
+							<a href="#">Activewear</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="page__category category">
+				<div class="category__container">
+					<div class="category__text">
+						<div class="category__breadcrumps breadcrumps">
+							<ul class="breadcrumps__list">
+								<li class="breadcrumps__item">
+									<a href="#">Home</a>
+								</li>
+								<li class="breadcrumps__item">
+									<a href="#">Apparel</a>
+								</li>
+								<li class="breadcrumps__item">
+									<a href="#">Dresses</a>
+								</li>
+							</ul>
+						</div>
+						<div class="category__text-content">
+							<div class="category__name">Dresses</div>
+							<div class="category__value">420</div>
+						</div>
+					</div>
+					<div class="category__filter filter">
+						<div class="filter__body">
+							<div class="filter__main">
+								<div class="filter__item filter__item_color">
+									<div class="filter__item-text">
+										Color
+									</div>
+									<svg class="filter__item-icon filter__item-plus filter__item-icon_active">
+										<use href="img/icons/icons.svg#svg-plus"></use>
+									</svg>
+									<svg class="filter__item-icon filter__item-minus">
+										<use href="img/icons/icons.svg#svg-minus"></use>
+									</svg>
+								</div>
+								<div class="filter__item filter__item_size">
+									<div class="filter__item-text">
+										Size
+									</div>
+									<svg class="filter__item-icon filter__item-plus filter__item-icon_active">
+										<use href="img/icons/icons.svg#svg-plus"></use>
+									</svg>
+									<svg class="filter__item-icon filter__item-minus">
+										<use href="img/icons/icons.svg#svg-minus"></use>
+									</svg>
+								</div>
+								<div class="filter__item filter__item_browse">
+									<div class="filter__item-text">
+										Browse by
+									</div>
+									<svg class="filter__item-icon filter__item-plus filter__item-icon_active">
+										<use href="img/icons/icons.svg#svg-plus"></use>
+									</svg>
+									<svg class="filter__item-icon filter__item-minus">
+										<use href="img/icons/icons.svg#svg-minus"></use>
+									</svg>
+								</div>
+							</div>
+							<div class="filter__sort">
+								<div class="filter__item filter__item_sort">
+									<div class="filter__item-text">
+										Sort by
+									</div>
+									<svg class="filter__item-icon filter__item-plus filter__item-icon_active">
+										<use href="img/icons/icons.svg#svg-plus"></use>
+									</svg>
+									<svg class="filter__item-icon filter__item-minus">
+										<use href="img/icons/icons.svg#svg-minus"></use>
+									</svg>
+								</div>
+								<div class="filter__sort-submenu">
+									<ul class="filter__sort-list">
+										<li class="filter__sort-item">
+											featured
+										</li>
+										<li class="filter__sort-item">
+											Bestsellers
+										</li>
+										<li class="filter__sort-item">
+											highest price
+										</li>
+										<li class="filter__sort-item">
+											lowest price
+										</li>
+										<li class="filter__sort-item">
+											oldest
+										</li>
+										<li class="filter__sort-item">
+											Newest
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="filter__submenu submenu">
+							<div id="color-submenu" class="submenu__color color-submenu item-submenu">
+								<ul class="item-submenu__list item-submenu__color-list">
+									<li class="item-submenu__item">
+										<div class="item-submenu__color-box item-submenu__color-box_beiges">
+										</div>
+										<div class="item-submenu__name">Beiges & Taupes</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__color-box item-submenu__color-box_blacks">
+										</div>
+										<div class="item-submenu__name">Blacks</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__color-box item-submenu__color-box_blues">
+										</div>
+										<div class="item-submenu__name">Blues</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__color-box item-submenu__color-box_browns">
+										</div>
+										<div class="item-submenu__name">Browns</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__color-box item-submenu__color-box_greens">
+										</div>
+										<div class="item-submenu__name">Greens</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__color-box item-submenu__color-box_greys">
+										</div>
+										<div class="item-submenu__name">Greys</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__color-box item-submenu__color-box_khaki">
+										</div>
+										<div class="item-submenu__name">Khaki</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__color-box item-submenu__color-box_metallics">
+										</div>
+										<div class="item-submenu__name">Metallics</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__color-box item-submenu__color-box_multi">
+										</div>
+										<div class="item-submenu__name">Multi</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__color-box item-submenu__color-box_mustard">
+										</div>
+										<div class="item-submenu__name">Mustard</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__color-box item-submenu__color-box_oranges">
+										</div>
+										<div class="item-submenu__name">Oranges</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__color-box item-submenu__color-box_pinks">
+										</div>
+										<div class="item-submenu__name">Pinks</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__color-box item-submenu__color-box_purples">
+										</div>
+										<div class="item-submenu__name">Purples</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__color-box item-submenu__color-box_yellows">
+										</div>
+										<div class="item-submenu__name">Yellows</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__color-box item-submenu__color-box_reds">
+										</div>
+										<div class="item-submenu__name">Reds</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__color-box item-submenu__color-box_white">
+										</div>
+										<div class="item-submenu__name">White</div>
+									</li>
+								</ul>
+								<div class="item-submenu__buttons">
+									<button class="item-submenu__clear">
+										Clear
+									</button>
+									<button id="submenu-color-button" class="item-submenu__apply">
+										Apply
+									</button>
+								</div>
+							</div>
+							<div id="size-submenu" class="submenu__size size-submenu item-submenu">
+								<ul class="item-submenu__list item-submenu__size-list">
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">1</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">3</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">5</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">7</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">9</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">11</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">13</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">XS</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">S</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">M</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">L</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">xl</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">2XL</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">3XL</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">One Size</div>
+									</li>
+								</ul>
+								<div class="item-submenu__buttons">
+									<button class="item-submenu__clear">
+										Clear
+									</button>
+									<button id="submenu-size-button" class="item-submenu__apply">
+										Apply
+									</button>
+								</div>
+							</div>
+							<div id="browse-submenu" class="submenu__browse browse-submenu item-submenu">
+								<ul class="item-submenu__list item-submenu__browse-list">
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">All</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">Jumpsuits & Rompers</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">Masks</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">Accessories</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">lingerie</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">New arrivals</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">Activewear</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">Outerwear</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">Plus size</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">Apparel</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">Shirts & Tops</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">Restocked</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">Bottoms</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">Sweatshirts & T-shirts</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">sets</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">Coats & Jackets</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">CCProducts</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">sleepwear</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">Jewelrys</div>
+									</li>
+									<li class="item-submenu__item">
+										<div class="item-submenu__box">
+										</div>
+										<div class="item-submenu__name">Made in USA</div>
+									</li>
+								</ul>
+								<div class="item-submenu__buttons">
+									<button class="item-submenu__clear">
+										Clear
+									</button>
+									<button id="submenu-browse-button" class="item-submenu__apply">
+										Apply
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="category__catalog catalog">
+						<div class="catalog__items">
+							<div data-cid="1" class="catalog__item item">
+								<a href="#" class="item__image">
+									<picture><source srcset="img/catalog/catalog-item-1.webp" type="image/webp"><img src="img/catalog/catalog-item-1.png" alt="Фото товара"></picture>
+								</a>
+								<div class="item__name">Mock Neck Long Sleeve Bodycon Mini W Bustier Detail And Stitching</div>
+								<div class="item__price">44</div>
+								<div class="item__colors">
+									<div class="item_color item_color_white"></div>
+								</div>
+							</div>
+							<div data-cid="2" class="catalog__item item">
+								<a href="#" class="item__image">
+									<picture><source srcset="img/catalog/catalog-item-2.webp" type="image/webp"><img src="img/catalog/catalog-item-2.png" alt="Фото товара"></picture>
+								</a>
+								<div class="item__name">Square Neck Adjustable Shoulder Straps Dress</div>
+								<div class="item__price">31</div>
+								<div class="item__colors">
+									<div class="item_color item_color_white"></div>
+								</div>
+							</div>
+							<div data-cid="3" class="catalog__item item">
+								<a href="#" class="item__image">
+									<picture><source srcset="img/catalog/catalog-item-3.webp" type="image/webp"><img src="img/catalog/catalog-item-3.png" alt="Фото товара"></picture>
+								</a>
+								<div class="item__name">Double Side Knit Solid Mini Dress
+								</div>
+								<div class="item__price">22</div>
+								<div class="item__colors">
+									<div class="item_color item_color_white"></div>
+								</div>
+							</div>
+							<div data-cid="4" class="catalog__item item">
+								<a href="#" class="item__image">
+									<picture><source srcset="img/catalog/catalog-item-4.webp" type="image/webp"><img src="img/catalog/catalog-item-4.png" alt="Фото товара"></picture>
+								</a>
+								<div class="item__name">Drop Shoulder With Saist Tie Belted Dress</div>
+								<div class="item__price">44</div>
+								<div class="item__colors">
+									<div class="item_color item_color_white"></div>
+								</div>
+							</div>
+							<div data-cid="5" class="catalog__item item">
+								<a href="#" class="item__image">
+									<picture><source srcset="img/catalog/catalog-item-5.webp" type="image/webp"><img src="img/catalog/catalog-item-5.png" alt="Фото товара"></picture>
+								</a>
+								<div class="item__name">Belted Hi Low Placket Lace Shirt Dress</div>
+								<div class="item__price">53</div>
+								<div class="item__colors">
+									<div class="item_color item_color_white"></div>
+								</div>
+							</div>
+							<div data-cid="6" class="catalog__item item">
+								<a href="#" class="item__image">
+									<picture><source srcset="img/catalog/catalog-item-6.webp" type="image/webp"><img src="img/catalog/catalog-item-6.png" alt="Фото товара"></picture>
+								</a>
+								<div class="item__name">Puff Sleeve Bodycon Print Dress
+								</div>
+								<div class="item__price">22</div>
+								<div class="item__colors">
+									<div class="item_all-colors">Multicolor</div>
+								</div>
+							</div>
+							<div data-cid="7" class="catalog__item item">
+								<a href="#" class="item__image">
+									<picture><source srcset="img/catalog/catalog-item-7.webp" type="image/webp"><img src="img/catalog/catalog-item-7.png" alt="Фото товара"></picture>
+								</a>
+								<div class="item__name">Cascade Ruffle Sleeve Frill Tiered Bottom Print Midi Dress
+								</div>
+								<div class="item__price">65</div>
+								<div class="item__colors">
+									<div class="item_all-colors">Multicolor</div>
+								</div>
+							</div>
+							<div data-cid="8" class="catalog__item item">
+								<a href="#" class="item__image">
+									<picture><source srcset="img/catalog/catalog-item-8.webp" type="image/webp"><img src="img/catalog/catalog-item-8.png" alt="Фото товара"></picture>
+								</a>
+								<div class="item__name">Buffalo Plaid Tartan Swing Dress
+								</div>
+								<div class="item__price">31</div>
+								<div class="item__colors">
+									<div class="item_color item_color_white"></div>
+								</div>
+							</div>
+							<div data-cid="9" class="catalog__item item">
+								<a href="#" class="item__image">
+									<picture><source srcset="img/catalog/catalog-item-9.webp" type="image/webp"><img src="img/catalog/catalog-item-9.png" alt="Фото товара"></picture>
+								</a>
+								<div class="item__name">Showstopper, Sexy Crossover Strap Dress
+
+								</div>
+								<div class="item__price">39</div>
+								<div class="item__colors">
+									<div class="item_color item_color_white"></div>
+									<div class="item_color item_color_black"></div>
+								</div>
+							</div>
+							<div data-cid="10" class="catalog__item item">
+								<a href="#" class="item__image">
+									<picture><source srcset="img/catalog/catalog-item-10.webp" type="image/webp"><img src="img/catalog/catalog-item-10.png" alt="Фото товара"></picture>
+								</a>
+								<div class="item__name">Sexy Long Sleeve Mock Neck Side Or Twist Ruching Dress
+
+								</div>
+								<div class="item__price">43</div>
+								<div class="item__colors">
+									<div class="item_color item_color_white"></div>
+									<div class="item_color item_color_black"></div>
+								</div>
+							</div>
+							<div data-cid="11" class="catalog__item item">
+								<a href="#" class="item__image">
+									<picture><source srcset="img/catalog/catalog-item-11.webp" type="image/webp"><img src="img/catalog/catalog-item-11.png" alt="Фото товара"></picture>
+								</a>
+								<div class="item__name">Sleeveless Crossover Front Ruched Bodycon Mini Dress
+
+								</div>
+								<div class="item__price">41</div>
+								<div class="item__colors">
+									<div class="item_color item_color_white"></div>
+									<div class="item_color item_color_black"></div>
+								</div>
+							</div>
+							<div data-cid="12" class="catalog__item item">
+								<a href="#" class="item__image">
+									<picture><source srcset="img/catalog/catalog-item-4.webp" type="image/webp"><img src="img/catalog/catalog-item-4.png" alt="Фото товара"></picture>
+								</a>
+								<div class="item__name">Sexy Spaghetti Strap Crossover Front Velvet Bodycon Dress
+
+								</div>
+								<div class="item__price">37</div>
+								<div class="item__colors">
+									<div class="item_color item_color_white"></div>
+									<div class="item_color item_color_black"></div>
+								</div>
+							</div>
+						</div>
+						<button class="catalog__button button">load more</button>
+					</div>
+				</div>
+			</div>
+			<div class="darker"></div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__info">
+						<div class="footer__mail">
+							<a href="mailto:customersupport@ovroe.com">customersupport@ovroe.com</a>
+						</div>
+						<div class="footer__phone">
+							<a href="tel:+7024627281">702-462-7281</a>
+						</div>
+						<div class="footer__location">
+							9550 S Eastern Ave ste 253-A102 Las Vegas NV 89123
+						</div>
+					</div>
+					<nav class="footer__nav">
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="#">About Us</a>
+							</li>
+							<li class="footer__item">
+								<a href="#">Contact Us</a>
+							</li>
+							<li class="footer__item">
+								<a href="#">Shipping Info</a>
+							</li>
+							<li class="footer__item">
+								<a href="#">Returns Info</a>
+							</li>
+							<li class="footer__item">
+								<a href="#">Terms of Service</a>
+							</li>
+							<li class="footer__item">
+								<a href="#">Refund policy</a>
+							</li>
+							<li class="footer__item">
+								<a href="#">Privacy policy</a>
+							</li>
+							<li class="footer__item">
+								<a href="#">Cookies</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="footer__subscribe">
+						<div class="footer__subscribe-text">
+							Subscribe to our newsletter
+						</div>
+						<div class="footer__email-subscribe">
+							<input placeholder="E-mail:" type="email" name="subscribe-email" id="subscribe-email">
+							<button type="submit">Ok</button>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__copy">
+						Copyright © 2021, OVROE - Online Fashion
+					</div>
+					<div class="footer__socials">
+						<a href="#" class="footer__instagram">Instagram</a>
+						<a href="" class="footer__facebook">Facebook</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="cart" class="cart">
+		<div class="cart__wrapper">
+			<div class="cart__body">
+				<div class="cart__content">
+					<div class="cart__title">
+						Your cart
+					</div>
+					<div class="cart__sum">
+						0
+					</div>
+				</div>
+				<div class="cart__info">
+					<div class="cart__items">
+					</div>
+				</div>
+				<div class="cart__bottom">
+					<div class="cart__subtotal">
+						<div class="cart__text">
+							Subtotal
+						</div>
+						<div class="cart__price">
+							0
+						</div>
+					</div>
+					<div class="cart__taxes">
+						Shipping, taxes, and discounts will be calculated at checkout
+					</div>
+					<a href="#" class="cart__button button">
+						Checkout
+					</a>
+				</div>
+				<div class="cart__close">
+					<svg>
+						<use href="img/icons/icons.svg#svg-close"></use>
+					</svg>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="blackout"></div>
+	<script src="js/app.min.js?_v=20220221105753"></script>
+</body>
+
+</html>

@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Товар</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220221105753">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<nav class="header__navigation navigation-header">
+						<ul class="navigation-header__list">
+							<li class="navigation-header__item">
+								<a href="#">New in</a>
+							</li>
+							<li class="navigation-header__item">
+								<a href="#">Apparel</a>
+							</li>
+							<li class="navigation-header__item">
+								<a href="#">Plus size</a>
+							</li>
+							<li class="navigation-header__item">
+								<a href="#">Accessories</a>
+							</li>
+							<li class="navigation-header__item">
+								<a href="#">Restocked</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__logo">
+						<a href="">
+							<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Логотип"></picture>
+						</a>
+					</div>
+					<div class="header__actions">
+						<div class="header__search search">
+							<div class="search__body">
+								<div class="search__text">
+									Search
+								</div>
+								<svg>
+									<use href="img/icons/icons.svg#svg-search"></use>
+								</svg>
+							</div>
+							<div class="search__ready">
+								<input autocomplete="off" type="search" name="search" id="site-search" placeholder="Search">
+								<svg class="search-find">
+									<use href="img/icons/icons.svg#svg-search"></use>
+								</svg>
+							</div>
+						</div>
+						<div class="header__sign sign">
+							Sign in
+						</div>
+						<a class="header__cart cart-header" href="#">
+							<div class="cart-header__text">
+								Cart
+							</div>
+							<span class="cart-header__value">0</span>
+						</a>
+					</div>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">New In</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Apparel</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Plus size</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Accessories</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Restocked</a></li>
+								<li class="menu__item menu__sign sign"><a href="#" class="menu__link">Sign in</a></li>
+								<li class="menu__item menu__search search">
+									<div class="search__body">
+										<div class="search__text">
+											Search
+										</div>
+										<svg>
+											<use href="img/icons/icons.svg#svg-search"></use>
+										</svg>
+									</div>
+									<div class="search__ready">
+										<input autocomplete="off" type="search" name="search" id="site-search" placeholder="Search">
+										<svg class="search-find">
+											<use href="img/icons/icons.svg#svg-search"></use>
+										</svg>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__breadcrumps breadcrumps">
+				<div class="breadcrumps__container">
+					<ul class="breadcrumps__list">
+						<li class="breadcrumps__item">
+							<a href="#">Home</a>
+						</li>
+						<li class="breadcrumps__item">
+							<a href="#">Apparel</a>
+						</li>
+						<li class="breadcrumps__item">
+							<a href="#">Short Sleeve Round Neck Petal Split Back Detail Crop Tee</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div data-cid="13" class="page__card card">
+				<div class="card__container">
+					<div class="card__back">
+						<a href="#">back</a>
+					</div>
+					<div class="card__body">
+						<div class="card__images">
+							<div class="card__main-image">
+								<picture><source srcset="img/card/card-item-1.webp" type="image/webp"><img src="img/card/card-item-1.png" alt="Карточка товара"></picture>
+							</div>
+							<ul class="card__image-list">
+								<li class="card__image-item card__image-item_active">
+									<picture><source srcset="img/card/card-item-1.webp" type="image/webp"><img src="img/card/card-item-1.png" alt="Карточка товара"></picture>
+								</li>
+								<li class="card__image-item">
+									<picture><source srcset="img/card/card-item-2.webp" type="image/webp"><img src="img/card/card-item-2.png" alt="Карточка товара"></picture>
+								</li>
+								<li class="card__image-item">
+									<picture><source srcset="img/card/card-item-3.webp" type="image/webp"><img src="img/card/card-item-3.png" alt="Карточка товара"></picture>
+								</li>
+								<li class="card__image-item">
+									<picture><source srcset="img/card/card-item-4.webp" type="image/webp"><img src="img/card/card-item-4.png" alt="Карточка товара"></picture>
+								</li>
+							</ul>
+						</div>
+						<div class="card__content">
+							<div class="card__name">
+								Square Neck Adjustable Shoulder Straps Dress
+							</div>
+							<div class="card__price">
+								32
+							</div>
+							<div class="card__color">
+								<label for="card-color">Color:</label>
+								<div class="card__color-block">
+									<div class="card__color-box card__color-box_white"></div>
+									<select id="card-color">
+										<option value="color-1">
+											Khaki
+										</option>
+										<option value="color-2">
+											White
+										</option>
+										<option value="color-3">
+											Black
+										</option>
+									</select>
+								</div>
+							</div>
+							<div class="card__size">
+								<div class="card__size-block">
+									<div class="card__size-text">Size:</div>
+									<ul class="card__size-list">
+										<li class="card__size-item">S</li>
+										<li class="card__size-item">M</li>
+										<li class="card__size-item">L</li>
+									</ul>
+								</div>
+								<div class="card__size-guide">
+									<a href="#">size guide</a>
+								</div>
+							</div>
+							<button class="card__button button">Add to bag</button>
+							<div class="card__details">
+								<div class="card__details-content">
+									<div class="card__details-text">
+										Details
+									</div>
+									<div class="card__details-icons card__icons">
+										<div class="card__details-icon card__details-icon_active card__details-icon-plus">
+											<svg>
+												<use href="img/icons/icons.svg#svg-plus"></use>
+											</svg>
+										</div>
+										<div class="card__details-icon card__details-icon-minus">
+											<svg>
+												<use href="img/icons/icons.svg#svg-minus"></use>
+											</svg>
+										</div>
+									</div>
+								</div>
+								<div class="card__details-spoiler">
+									<div class="card__text">
+										Imported.<br>
+										Solid, short sleeve, round neckline, petal split back detail, slight crop, relaxed fit, unlined, stretchy, non-sheer, basic, casual, comfy, breathable, eco, 100% cotton, sportswear, activewear, yoga & gym look, minimalistic design, spring/summer collection
+										<br>
+										100% Cotton. TSH
+									</div>
+								</div>
+							</div>
+							<div class="card__subsize">
+								<div class="card__subsize-content">
+									<div class="card__subsize-text">
+										Size & Fit
+									</div>
+									<div class="card__subsize-icons card__icons">
+										<div class="card__subsize-icon card__subsize-icon_active card__subsize-icon-plus">
+											<svg>
+												<use href="img/icons/icons.svg#svg-plus"></use>
+											</svg>
+										</div>
+										<div class="card__subsize-icon card__subsize-icon-minus">
+											<svg>
+												<use href="img/icons/icons.svg#svg-minus"></use>
+											</svg>
+										</div>
+									</div>
+								</div>
+								<div class="card__subsize-spoiler">
+									<picture><source srcset="img/card/card-size.webp" type="image/webp"><img src="img/card/card-size.png" alt="Размер"></picture>
+									<div class="card__text">
+										Item Measurements: SIZE S<br>
+										Item Measurements: Length: 28", Bust: 32"<br>
+										True to size
+									</div>
+								</div>
+							</div>
+							<div class="card__shipping shipping">
+								<div class="card__shipping-content">
+									<div class="card__shipping-text">
+										Shipping & Returns
+									</div>
+									<div class="card__shipping-icons card__icons">
+										<div class="card__shipping-icon card__shipping-icon_active card__shipping-icon-plus">
+											<svg>
+												<use href="img/icons/icons.svg#svg-plus"></use>
+											</svg>
+										</div>
+										<div class="card__shipping-icon card__shipping-icon-minus">
+											<svg>
+												<use href="img/icons/icons.svg#svg-minus"></use>
+											</svg>
+										</div>
+									</div>
+								</div>
+								<div class="card__shipping-spoiler">
+									<div class="shipping__title">
+										Shipping Info
+									</div>
+									<div class="shipping__subtitle">
+										Order delivery time:
+									</div>
+									<div class="shipping__text">
+										All orders are shipped priority/first class & delivered 5-7 business days from the day you place the order.
+									</div>
+									<div class="shipping__subtitle shipping__free">
+										Free shipping on orders over $75.
+									</div>
+									<div class="shipping__subtitle">
+										Shipping fee:
+									</div>
+									<div class="shipping__text">
+										Up to $10 = $3.75<br>
+										$10.01 - $30.00 = $4.75<br>
+										$30.01 - $75.00 = $5.75<br>
+										$75.01 & over = free shipping
+									</div>
+									<div class="shipping__text">
+										We will email you tracking info as soon as the order is shipped.
+									</div>
+									<div class="shipping__title">
+										Returns info
+									</div>
+									<div class="shipping__subtitle">
+										Free returns.
+									</div>
+									<p class="shipping__text">
+										We will accept all authorized returns
+										All returns are accepted as long as the request is made to return the item within 30 days of receiving the merchandise.
+										Once approved we will generate the FREE UPS prepaid label, we will email you with the label attached.
+										Just print the label, attach it to any box/package and return the items.
+										You will have 30 days to send the item back for full refund once you receive the free return label.
+										Once we receive the items back we will process the return and refund the balance back to your account.
+										Please note free return labels are available for items being shipped within 48 continental states only.
+										Please contact us here ovroefashion@gmail.com to receive an RMA# for your return.
+										Please include your Order#, items returning, and the reason for the return.
+									</p>
+								</div>
+							</div>
+							<div class="card__share">
+								<a href="#">share</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__recent">
+				<div class="recent__container">
+					<div class="recent__body">
+						<div class="recent__title">Recently viewed</div>
+						<div class="recent__items">
+							<div class="recent__item item">
+								<div class="item__image">
+									<picture><source srcset="img/card/recently-item-1.webp" type="image/webp"><img src="img/card/recently-item-1.png" alt="Фото товара"></picture>
+								</div>
+								<div class="item__name">A V-neckline Drawstring Ruched Top</div>
+								<div class="item__price">31</div>
+								<div class="item__colors">
+									<div class="item_color item_color_white"></div>
+								</div>
+							</div>
+							<div class="recent__item item">
+								<div class="item__image">
+									<picture><source srcset="img/card/recently-item-2.webp" type="image/webp"><img src="img/card/recently-item-2.png" alt="Фото товара"></picture>
+								</div>
+								<div class="item__name">A V-neckline Drawstring Ruched Top</div>
+								<div class="item__price">31</div>
+								<div class="item__colors">
+									<div class="item_color item_color_white"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__like like">
+				<div class="like__container">
+					<div class="like__body">
+						<div class="like__content">
+							<div class="like__title">You may also like</div>
+							<div class="like__navigation">
+								<div class="like__prev">
+									prev
+								</div>
+								<div class="like__next">
+									next
+								</div>
+							</div>
+						</div>
+						<div class="like__slider like-swiper">
+							<div class="like__wrapper swiper-wrapper">
+								<div class="like__slide swiper-slide like__item item">
+									<div class="item__image-category">
+										<picture><source srcset="img/card/like-item-1.webp" type="image/webp"><img src="img/card/like-item-1.png" alt="Фото категорий"></picture>
+									</div>
+									<div class="item__category">A V-neckline Drawstring Ruched Top</div>
+									<div class="item__price">31</div>
+									<div class="item__colors">
+										<div class="item_color item_color_white"></div>
+									</div>
+								</div>
+								<div class="like__slide swiper-slide like__item item">
+									<div class="item__image-category">
+										<picture><source srcset="img/card/like-item-2.webp" type="image/webp"><img src="img/card/like-item-2.png" alt="Фото категорий"></picture>
+									</div>
+									<div class="item__category">A V-neckline Drawstring Ruched Top</div>
+									<div class="item__price">31</div>
+									<div class="item__colors">
+										<div class="item_color item_color_white"></div>
+									</div>
+								</div>
+								<div class="like__slide swiper-slide like__item item">
+									<div class="item__image-category">
+										<picture><source srcset="img/card/like-item-3.webp" type="image/webp"><img src="img/card/like-item-3.png" alt="Фото категорий"></picture>
+									</div>
+									<div class="item__category">A V-neckline Drawstring Ruched Top</div>
+									<div class="item__price">31</div>
+									<div class="item__colors">
+										<div class="item_color item_color_white"></div>
+									</div>
+								</div>
+								<div class="like__slide swiper-slide like__item item">
+									<div class="item__image-category">
+										<picture><source srcset="img/card/like-item-4.webp" type="image/webp"><img src="img/card/like-item-4.png" alt="Фото категорий"></picture>
+									</div>
+									<div class="item__category">A V-neckline Drawstring Ruched Top</div>
+									<div class="item__price">31</div>
+									<div class="item__colors">
+										<div class="item_color item_color_white"></div>
+									</div>
+								</div>
+								<div class="like__slide swiper-slide like__item item">
+									<div class="item__image-category">
+										<picture><source srcset="img/card/like-item-1.webp" type="image/webp"><img src="img/card/like-item-1.png" alt="Фото категорий"></picture>
+									</div>
+									<div class="item__category">A V-neckline Drawstring Ruched Top</div>
+									<div class="item__price">31</div>
+									<div class="item__colors">
+										<div class="item_color item_color_white"></div>
+									</div>
+								</div>
+								<div class="like__slide swiper-slide like__item item">
+									<div class="item__image-category">
+										<picture><source srcset="img/card/like-item-2.webp" type="image/webp"><img src="img/card/like-item-2.png" alt="Фото категорий"></picture>
+									</div>
+									<div class="item__category">A V-neckline Drawstring Ruched Top</div>
+									<div class="item__price">31</div>
+									<div class="item__colors">
+										<div class="item_color item_color_white"></div>
+									</div>
+								</div>
+								<div class="like__slide swiper-slide like__item item">
+									<div class="item__image-category">
+										<picture><source srcset="img/card/like-item-3.webp" type="image/webp"><img src="img/card/like-item-3.png" alt="Фото категорий"></picture>
+									</div>
+									<div class="item__category">A V-neckline Drawstring Ruched Top</div>
+									<div class="item__price">31</div>
+									<div class="item__colors">
+										<div class="item_color item_color_white"></div>
+									</div>
+								</div>
+								<div class="like__slide swiper-slide like__item item">
+									<div class="item__image-category">
+										<picture><source srcset="img/card/like-item-4.webp" type="image/webp"><img src="img/card/like-item-4.png" alt="Фото категорий"></picture>
+									</div>
+									<div class="item__category">A V-neckline Drawstring Ruched Top</div>
+									<div class="item__price">31</div>
+									<div class="item__colors">
+										<div class="item_color item_color_white"></div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-scrollbar"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="darker"></div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__info">
+						<div class="footer__mail">
+							<a href="mailto:customersupport@ovroe.com">customersupport@ovroe.com</a>
+						</div>
+						<div class="footer__phone">
+							<a href="tel:+7024627281">702-462-7281</a>
+						</div>
+						<div class="footer__location">
+							9550 S Eastern Ave ste 253-A102 Las Vegas NV 89123
+						</div>
+					</div>
+					<nav class="footer__nav">
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="#">About Us</a>
+							</li>
+							<li class="footer__item">
+								<a href="#">Contact Us</a>
+							</li>
+							<li class="footer__item">
+								<a href="#">Shipping Info</a>
+							</li>
+							<li class="footer__item">
+								<a href="#">Returns Info</a>
+							</li>
+							<li class="footer__item">
+								<a href="#">Terms of Service</a>
+							</li>
+							<li class="footer__item">
+								<a href="#">Refund policy</a>
+							</li>
+							<li class="footer__item">
+								<a href="#">Privacy policy</a>
+							</li>
+							<li class="footer__item">
+								<a href="#">Cookies</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="footer__subscribe">
+						<div class="footer__subscribe-text">
+							Subscribe to our newsletter
+						</div>
+						<div class="footer__email-subscribe">
+							<input placeholder="E-mail:" type="email" name="subscribe-email" id="subscribe-email">
+							<button type="submit">Ok</button>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__copy">
+						Copyright © 2021, OVROE - Online Fashion
+					</div>
+					<div class="footer__socials">
+						<a href="#" class="footer__instagram">Instagram</a>
+						<a href="" class="footer__facebook">Facebook</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="cart" class="cart">
+		<div class="cart__wrapper">
+			<div class="cart__body">
+				<div class="cart__content">
+					<div class="cart__title">
+						Your cart
+					</div>
+					<div class="cart__sum">
+						0
+					</div>
+				</div>
+				<div class="cart__info">
+					<div class="cart__items">
+					</div>
+				</div>
+				<div class="cart__bottom">
+					<div class="cart__subtotal">
+						<div class="cart__text">
+							Subtotal
+						</div>
+						<div class="cart__price">
+							0
+						</div>
+					</div>
+					<div class="cart__taxes">
+						Shipping, taxes, and discounts will be calculated at checkout
+					</div>
+					<a href="#" class="cart__button button">
+						Checkout
+					</a>
+				</div>
+				<div class="cart__close">
+					<svg>
+						<use href="img/icons/icons.svg#svg-close"></use>
+					</svg>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="blackout"></div>
+	<script src="js/app.min.js?_v=20220221105753"></script>
+</body>
+
+</html>

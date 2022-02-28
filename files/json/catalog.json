@@ -1,0 +1,69 @@
+{   "catalog": [
+        {
+            "id": 13,
+            "url": "#",
+            "name": "Square Neck Adjustable Shoulder Straps Dress",
+            "price": 32,
+            "colors": [
+                "white",
+                "black",
+                "khaki"
+            ],
+            "sizes": [
+                "M",
+                "L",
+                "S"
+            ],
+            "images": [
+                "card-item-1.png",
+                "card-item-2.png",
+                "card-item-3.png",
+                "card-item-4.png"
+            ]
+        },
+        {
+            "id": 14,
+            "url": "#",
+            "name": "Square Neck Adjustable Shoulder Straps Dress",
+            "price": 32,
+            "colors": [
+                "white",
+                "black",
+                "khaki"
+            ],
+            "sizes": [
+                "M",
+                "L",
+                "S"
+            ],
+            "images": [
+                "card-item-1.png",
+                "card-item-2.png",
+                "card-item-3.png",
+                "card-item-4.png"
+            ]
+        },
+        {
+            "id": 15,
+            "url": "#",
+            "name": "Square Neck Adjustable Shoulder Straps Dress",
+            "price": 32,
+            "colors": [
+                "white",
+                "black",
+                "khaki"
+            ],
+            "sizes": [
+                "M",
+                "L",
+                "S"
+            ],
+            "images": [
+                "card-item-1.png",
+                "card-item-2.png",
+                "card-item-3.png",
+                "card-item-4.png"
+            ]
+        }
+    ]
+}
